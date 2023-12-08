@@ -98,7 +98,7 @@ public class ModulePluginIgnoredTypesConfigurer implements IgnoredTypesConfigure
                 .allowClass("com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool");
 
         //caffeine
-        builder.ignoreClass("om.github.benmanes.caffeine.")
+        builder.ignoreClass("com.github.benmanes.caffeine.")
                 .allowClass("com.github.benmanes.caffeine.cache.UnboundedLocalCache")
                 .allowClass("com.github.benmanes.caffeine.cache.BoundedLocalCache")
                 .allowClass("com.github.benmanes.caffeine.cache.CacheLoader");
